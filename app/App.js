@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Button, View, Text} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/Stack';
+import {createStackNavigator} from '@react-navigation/stack';
 import Tela from './src/Screens/Tela/Tela.js';
 import HomeScreen from './src/Screens/HomeScreen.js';
 
@@ -10,7 +10,7 @@ function DetailsScreen({navigation}) {
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text>Details Screen</Text>
       <Button
-        title="Detalhes aaaaa"
+        title="Tela aaaaaaaa"
         onPress={() => navigation.navigate('Tela')}
       />
     </View>
