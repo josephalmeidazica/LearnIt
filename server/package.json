@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^8.0.0",
+    "firebase-admin": "^9.3.0",
+    "firebase-functions": "^3.11.0"
+  }
+}
