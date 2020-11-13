@@ -22,7 +22,11 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Casa">
+      <Stack.Navigator
+        initialRouteName="Casa"
+        screenOptions={{
+          headerShown: false,
+        }}>
         <Stack.Screen name="Casa" component={HomeScreen} />
         <Stack.Screen name="Detalhes" component={DetailsScreen} />
         <Stack.Screen name="Tela" component={Tela} />

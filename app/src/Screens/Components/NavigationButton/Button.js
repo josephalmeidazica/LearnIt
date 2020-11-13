@@ -12,7 +12,6 @@ class NavvigationButton extends React.Component {
   render() {
     return (
       <View style={style.View}>
-        <Text>Tela</Text>
         <Button
           style={style.View}
           title={this.props.textoBotao}
