@@ -1,3 +1,11 @@
 export default {
-  View: {flex: 1, alignItems: 'center', justifyContent: 'center'},
+  View: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  linearGradient: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 };
