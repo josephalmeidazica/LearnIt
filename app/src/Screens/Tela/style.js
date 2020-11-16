@@ -8,4 +8,12 @@ export default {
     alignItems: 'center',
     justifyContent: 'center',
   },
+  textInput: {
+    height: 40,
+  },
+  text: {
+    padding: 10,
+    fontSize: 42,
+    color: 'white',
+  },
 };

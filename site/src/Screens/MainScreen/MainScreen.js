@@ -11,15 +11,15 @@ class NameForm extends React.Component {
     }
   
     handleChangeEmail(event) {
-      this.setState({email: event.target.email});
+      this.setState({email: event.target.value});
     }
 
     handleChangeSenha(event) {
-        this.setState({senha: event.target.senha});
-      }
+        this.setState({senha: event.target.value});
+    }
   
     handleSubmit(event) {
-      alert('Dados de login: ' + this.state.email + '' + this.state.senha);
+      alert('Dados de login: ' + this.state.email + ' ' + this.state.senha);
       event.preventDefault();
     }
   

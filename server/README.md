@@ -1,0 +1,1 @@
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\josep\Desktop\LearnIt\server\src\learnit-e937e-firebase-adminsdk-2omql-203424c63b.json"
